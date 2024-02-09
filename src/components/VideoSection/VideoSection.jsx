@@ -12,7 +12,7 @@ export const VideoSection = ({ collection = [] }) => {
         {collection.map((video, index) => (
           <VideoCard
             key={index}
-            videoUrl="https://res.cloudinary.com/dooazvgi7/video/upload/v1707445273/randomvideo/l2s6fn3do15u6paevmbt.mp4"
+            videoUrl={video.videoUrl}
             title={video.title}
             poster={video.poster}
           />
