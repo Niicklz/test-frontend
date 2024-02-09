@@ -1,0 +1,20 @@
+:root {
+  --light-green: #03b044;
+  --shadow-green: #049337;
+  --dark-green: #114f2a;
+  --black: #151002;
+  --white: #ffffff;
+  --gray: #96979c;
+  --light-gray: #edf0f0;
+  --red: #ec2107;
+  --btn-size: 150px;
+}
+
+body {
+  min-width: 375px;
+  overflow-x: hidden;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}

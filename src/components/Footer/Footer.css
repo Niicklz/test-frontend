@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  order: 1;
+}
+.footer p {
+  order: 2;
+}
+.footer span {
+  order: 3;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+
+    padding: 2rem 8rem;
+  }
+
+  .footer img {
+    order: 1;
+  }
+  .footer p {
+    order: 0;
+    max-width: 330px;
+  }
+  .footer span {
+    order: 2;
+  }
+}
