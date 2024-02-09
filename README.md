@@ -27,5 +27,5 @@ To run this landing page locally, follow these steps:
 To start the development server and view the landing page, run the following command:
 
 ```bash
-
+npm run dev
 ```
