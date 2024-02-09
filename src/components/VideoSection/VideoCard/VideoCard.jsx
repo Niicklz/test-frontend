@@ -6,13 +6,14 @@ import { Heading } from "../../commons/Heading/Heading";
 export const VideoCard = ({ videoUrl, title, poster }) => {
   return (
     <article className="video-card">
-      <iframe
+      <video
         width="320px"
-        height="150px"
-        src={videoUrl}
-        title={title}
-        allowFullScreen
-      ></iframe>
+        height="150"
+        id="mainVideo"
+        src="/public/example-vid.mp4"
+        muted
+        controls
+      ></video>
       <Heading level="3" className="video-title">
         {title}
       </Heading>

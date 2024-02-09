@@ -10,12 +10,7 @@ export const VideoSection = ({ collection = [] }) => {
       <Heading level="2">lastest videos</Heading>
       <div className="videos-container">
         {collection.map((video, index) => (
-          <VideoCard
-            key={index}
-            videoUrl="../../../public/example-vid.mp4"
-            title={video.title}
-            poster={video.poster}
-          />
+          <VideoCard key={index} title={video.title} poster={video.poster} />
         ))}
       </div>
       <Button text="View all" variant="solid" size="md" />
