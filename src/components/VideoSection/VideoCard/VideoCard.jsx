@@ -1,8 +1,6 @@
 import React from "react";
 import "./VideoCard.css";
 
-import { PlayIcon } from "@heroicons/react/24/solid";
-import { AppImage } from "../../commons/Image/AppImage";
 import { Heading } from "../../commons/Heading/Heading";
 
 export const VideoCard = ({ videoUrl, title, poster }) => {

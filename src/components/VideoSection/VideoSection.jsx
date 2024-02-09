@@ -12,7 +12,7 @@ export const VideoSection = ({ collection = [] }) => {
         {collection.map((video, index) => (
           <VideoCard
             key={index}
-            videoUrl={video.videoUrl}
+            videoUrl="/src/assets/videoSectionImages/example-vid.mp4"
             title={video.title}
             poster={video.poster}
           />
