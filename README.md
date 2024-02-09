@@ -2,6 +2,8 @@
 
 This landing page is a replication of a simple design as part of a frontend test for Novatech.
 
+![Header](https://res.cloudinary.com/dooazvgi7/image/upload/v1707481664/AllProjects/Grab_r21f1q.png)
+
 ## Description
 
 This landing page showcases my frontend design and development skills. It is a simple, visually appealing page that highlights key information about the product or service being promoted.
