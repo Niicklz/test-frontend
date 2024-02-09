@@ -2,7 +2,6 @@ import React from "react";
 import "./VideoCard.css";
 
 import { Heading } from "../../commons/Heading/Heading";
-import video from "../../../../public/video.mp4";
 
 export const VideoCard = ({ videoUrl, title, poster }) => {
   return (
@@ -11,7 +10,7 @@ export const VideoCard = ({ videoUrl, title, poster }) => {
         width="320"
         height="150"
         id="mainVideo"
-        src={video}
+        src={videoUrl}
         muted
         controls
       ></video>
