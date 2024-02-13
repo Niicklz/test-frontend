@@ -18,8 +18,8 @@ This landing page showcases my frontend design and development skills. It is a s
 
 To run this landing page locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Niicklz/frontend-test.git`
-2. Navigate to the project directory: `cd frontend-test`
+1. Clone the repository: `git clone https://github.com/Niicklz/test-frontend.git`
+2. Navigate to the project directory: `cd test-frontend`
 3. Install the dependencies: `npm install`
 
 ## Usage
